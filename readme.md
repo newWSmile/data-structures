@@ -75,4 +75,4 @@ example:
 
 对比图：
 
-![算法对比](https://github.com/newWSmile/data-structures/blob/master/src/main/resources/imgs/contrast.jpg?raw=true) 
+![算法对比](https://github.com/newWSmile/data-structures/blob/master/src/main/resources/imgs/contrast.png) 

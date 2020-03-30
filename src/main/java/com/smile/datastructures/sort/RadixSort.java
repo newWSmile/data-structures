@@ -1,5 +1,7 @@
 package com.smile.datastructures.sort;
 
+import java.util.Arrays;
+
 /**
  * @author ：Smile(wangyajun)
  * @date ：Created in 2020/3/30 15:28
@@ -8,28 +10,28 @@ package com.smile.datastructures.sort;
 public class RadixSort {
 
     public static void main(String[] args) {
-//        int[] array = {53, 3, 542, 748, 14, 214};
+        int[] array = {53, 3, 542, 748, 14, 214};
+
+        radixSort(array);
+
+        System.out.println("基数排序结果为:" + Arrays.toString(array));
+
+
+//        int num = 8000000;
+//        int[] array = new int[num];
 //
-//        radixSort(array);
+//        for (int i = 0; i < num; i++) {
+//            array[i] = (int) (Math.random() * num * 1000);
+//        }
 //
-//        System.out.println("基数排序结果为:" + Arrays.toString(array));
-
-
-        int num = 8000000;
-        int[] array = new int[num];
-
-        for (int i = 0; i < num; i++) {
-            array[i] = (int) (Math.random() * num * 1000);
-        }
-
-//        System.out.println("排序前的数组为:" + Arrays.toString(array));
-        long start = System.currentTimeMillis();
-        System.out.println("排序前的时间为:" + start);
-        radixSort(array);//
-//        System.out.println("排序后的数组为:" + Arrays.toString(array));
-        long end = System.currentTimeMillis();
-        System.out.println("排序后的时间为:" + end);
-        System.out.println("共计花费:[" + (end - start) * 1.0 / 1000 + "]秒");
+////        System.out.println("排序前的数组为:" + Arrays.toString(array));
+//        long start = System.currentTimeMillis();
+//        System.out.println("排序前的时间为:" + start);
+//        radixSort(array);//
+////        System.out.println("排序后的数组为:" + Arrays.toString(array));
+//        long end = System.currentTimeMillis();
+//        System.out.println("排序后的时间为:" + end);
+//        System.out.println("共计花费:[" + (end - start) * 1.0 / 1000 + "]秒");
     }
 
     public static void radixSort(int[] array) {
