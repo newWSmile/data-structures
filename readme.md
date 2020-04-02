@@ -76,3 +76,10 @@ example:
 对比图：
 
 ![算法对比](https://github.com/newWSmile/data-structures/blob/master/src/main/resources/imgs/contrast.png) 
+
+
+8 查找算法
+
+线性查找
+
+二分查找（有序数组才能使用二分）
