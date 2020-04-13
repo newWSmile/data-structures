@@ -39,7 +39,7 @@ public class SingleLinkedListTest {
         singleLinkedList.showLinkedList();
 
         System.out.println("=====反转=========");
-//        reverseList(singleLinkedList.getHead());
+        reverseList(singleLinkedList.getHead());
 //        singleLinkedList.showLinkedList();
 
         System.out.println("=======正序=======");
